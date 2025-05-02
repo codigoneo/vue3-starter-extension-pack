@@ -1,0 +1,41 @@
+{
+    "name": "vue3-starter-extension-pack",
+    "displayName": "Vue3 Starter Extension Pack",
+    "description": "The most valuable extensions to start programming in Vue3.JS",
+    "version": "1.0.1",
+    "publisher": "rafaelcabrera",
+    "scripts": {
+        "Generate package": "vsce package --skip-license",
+        "Install vsce": "npm install -g @vscode/vsce"
+    },
+    "repository": {
+        "url": "https://github.com/codigoneo/Vue3-Starter-Extension-Pack"
+    },
+    "keywords": [
+        "vue3",
+        "vue",
+        "node",
+        "javascript",
+        "css",
+        "sonar"
+    ],
+    "engines": {
+        "vscode": "^1.99.3"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "icon": "icon.png",
+    "extensionPack": [ 
+        "vue.volar",
+        "sonarsource.sonarlint",
+        "sdras.vue-vscode-snippets",
+        "dariofuzinato.vue-peek",
+        "formulahendry.auto-rename-tag",
+        "durzn.brackethighlighter",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "kisstkondoros.vscode-gutter-preview",
+        "pranaygp.vscode-css-peek"
+    ]
+}
