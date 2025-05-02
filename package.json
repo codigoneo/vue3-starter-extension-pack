@@ -2,7 +2,7 @@
     "name": "vue3-starter-extension-pack",
     "displayName": "Vue3 Starter Extension Pack",
     "description": "The most valuable extensions to start programming in Vue3.JS",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "publisher": "rafaelcabrera",
     "scripts": {
         "Generate package": "vsce package --skip-license",
@@ -26,7 +26,7 @@
         "Extension Packs"
     ],
     "icon": "icon.png",
-    "extensionPack": [ 
+    "extensionDependencies": [ 
         "vue.volar",
         "sonarsource.sonarlint",
         "sdras.vue-vscode-snippets",
